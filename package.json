@@ -1,6 +1,6 @@
 {
   "name": "tuling-robot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a chat robot",
   "main": "robot.js",
   "scripts": {
@@ -10,5 +10,13 @@
     "robot"
   ],
   "author": "bhaltair",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaltair/tuling-robot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhaltair/tuling-robot/issues"
+  },
+  "homepage": "https://github.com/bhaltair/tuling-robot#readme"
 }
