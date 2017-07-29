@@ -1,0 +1,14 @@
+{
+  "name": "tuling-robot",
+  "version": "1.0.0",
+  "description": "a chat robot",
+  "main": "robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robot"
+  ],
+  "author": "bhaltair",
+  "license": "ISC"
+}
