@@ -1,4 +1,4 @@
-#!usr/bin/env node
+#!/usr/local/bin node
 var readline = require('readline');
 var querystring = require('querystring');
 var http = require('http');
@@ -49,9 +49,17 @@ function PostCode(codestring) {
 
 
 var robot = readline.createInterface(process.stdin, process.stdout);
-
+process.stdout.write('来和我聊天吧' + '\n')
 robot.on('line', function(input){
+    if(input == "exit"){
+        console.log('bye bye');
+        return robot.close();
+    }
     PostCode(input)
     // process.stdout.write(input + '\n')
     robot.prompt()
+})
+
+robot.on('SIGINT', function(input){
+    robot.close();
 })

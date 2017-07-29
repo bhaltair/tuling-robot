@@ -1,6 +1,6 @@
 {
   "name": "tuling-robot",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "a chat robot",
   "main": "robot.js",
   "scripts": {
