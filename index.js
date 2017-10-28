@@ -1,4 +1,4 @@
-#!/usr/local/bin node
+#!/usr/bin/env node
 const readline = require('readline');
 const querystring = require('querystring');
 const http = require('http');

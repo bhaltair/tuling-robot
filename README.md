@@ -7,11 +7,18 @@ README.md
 3. node readline module
 4. how to publish npm module
 
+## how to install
+
+npm install tuling-robot -g 
+
+or
+
+yarn global add tuling-robot
+
 ## how to use
-1. reg
-go to the website http://www.tuling123.com/ and register a account
+in the terminal
 
-2. apply apikey and copy the apikey to config.js 
+type "robot" 
 
-3. start the robot
-npm start
+## how to exit the dialog
+type "exit" 

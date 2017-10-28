@@ -1,23 +1,29 @@
 {
   "name": "tuling-robot",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "a chat robot",
-  "main": "robot.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node robot.js"
+    "start": "node index.js"
+  },
+  "bin": {
+    "robot": "./index.js"
   },
   "keywords": [
-    "robot"
+    "robot",
+    "tuling",
+    "cli"
   ],
+  "bugs": {
+    "url": "https://github.com/bhaltair/tuling-robot/issues"
+  },
   "author": "bhaltair",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bhaltair/tuling-robot.git"
   },
-  "bugs": {
-    "url": "https://github.com/bhaltair/tuling-robot/issues"
-  },
-  "homepage": "https://github.com/bhaltair/tuling-robot#readme"
+  "homepage": "https://github.com/bhaltair/tuling-robot#readme",
+  "dependencies": {}
 }
