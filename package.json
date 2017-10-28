@@ -4,7 +4,8 @@
   "description": "a chat robot",
   "main": "robot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node robot.js"
   },
   "keywords": [
     "robot"

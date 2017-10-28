@@ -1,11 +1,11 @@
 #!/usr/local/bin node
-var readline = require('readline');
-var querystring = require('querystring');
-var http = require('http');
-var fs = require('fs');
+const readline = require('readline');
+const querystring = require('querystring');
+const http = require('http');
+const fs = require('fs');
 
 
-const apikey = "2c2c21b0acb74e66910f42f80a26bf59"
+const apikey = require('./config.js').apikey
 const url = "http://www.tuling123.com"
 
 function PostCode(codestring) {
@@ -49,7 +49,7 @@ function PostCode(codestring) {
 
 
 var robot = readline.createInterface(process.stdin, process.stdout);
-process.stdout.write('来和我聊天吧' + '\n')
+process.stdout.write('hi' + '\n')
 robot.on('line', function(input){
     if(input == "exit"){
         console.log('bye bye');
